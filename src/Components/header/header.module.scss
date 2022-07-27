@@ -1,0 +1,42 @@
+.header {
+    width: 100%;
+    height: 10%;
+}
+
+.topImage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.topImage img {
+    width: 90%;
+    height: 90%
+}
+
+.bottomImg {
+    width: 100vw;
+    height: 10%
+}
+
+.bottomImg img{
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+
+@media only screen and (min-width: 351px) and (max-width: 991px) {
+    .topImage img {
+        width: 70%;
+        height: 70%;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 350px) {
+
+    .topImage img {
+            width: 50%;
+            height: 50%;
+        }
+    }

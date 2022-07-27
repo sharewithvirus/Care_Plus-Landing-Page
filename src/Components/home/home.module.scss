@@ -1,0 +1,109 @@
+@import '../cssVariables/cssVariables.scss';
+
+.homeDiv {
+    height: 100vh;
+}
+.logo{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.logo img {
+    width: 60%;
+    margin: 100px, 0px;
+}
+
+.logo p {
+    color: red;
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+.paragraph p {
+    width: 80%;
+    font-size: 1.3rem;
+    margin-bottom: 300px;
+}
+
+.docImgDiv img{
+    position: relative;
+    width: auto;
+    height: 85%;
+    z-index: -2;
+}
+
+.paragraph button {
+    margin-top: 100px;
+    position: absolute;
+    padding: 10px;
+    width: 20rem;
+    font-size: 1.5rem;
+    color: white;
+    background: linear-gradient(94.43deg, #54E6D8 -14.68%, #3E4095 87%), #3E4095;
+    border-radius: 58.1736px;
+}
+
+@media only screen and (max-width: 680px) {
+    .docImgDiv {
+        top: -370px;
+        width: 50%;
+    }
+
+    .docImgDiv img {
+        top: -370px;
+    }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 991px) {
+    .logo img {
+        width: 50%;
+        margin-bottom: 5px;
+        margin: 50px, 0px;
+    }
+    .logo p {
+        font-size: 1.5rem;
+       }
+    .paragraph p {
+        width: 80%;
+        margin-top: 0px;
+        font-size: 1.2rem;
+    }
+    .paragraph button {
+        margin-top: 665px;
+    }
+
+    .docImgDiv {
+        top: -370px;
+        width: 50%;
+    }
+
+    .docImgDiv img {
+        top: -300px;
+        width: 40rem;
+    }
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 350px) {
+    .logo img {
+        margin-top: -40px;
+        width: 45%;
+    }
+    .logo p {
+        font-size: 1.1rem;
+       }
+    .paragraph p {
+        width: 98%;
+        font-size: 1.1rem;
+    }
+    .paragraph button {
+        position: absolute;
+        margin-top: 0px;
+        padding: 8px;
+        width: 15rem;
+        font-size: 1.5rem;
+    }
+    .docImgDiv img{
+        display: none;
+    }
+}

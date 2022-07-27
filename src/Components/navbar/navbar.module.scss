@@ -1,0 +1,36 @@
+@import "../cssVariables/cssVariables.scss";
+
+.navbar {
+    font-size: 1.5rem;
+    color: transparent;
+
+}
+
+.brandImg  img{
+    width: 100%;
+}
+
+.ulList li {
+    cursor: pointer;
+    color: aqua;
+}
+
+@media only screen and (min-width: 351px) and (max-width: 991px) {
+    .brandImg  img{
+        width: 100%;
+    }
+    .nav_Button span img{
+        width: 50px;
+        right: 100px
+    }
+    // .nav_Button{
+    //     background-color: white;
+    // }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 350px) {
+    .brandImg  img{
+        display: none;
+        width: 90%;
+    }
+    }

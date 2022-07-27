@@ -1,0 +1,40 @@
+@import "../cssVariables/cssVariables.scss";
+
+.fetcher2{
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    align-items: center;
+    background-image: url('../../../public/assets/fetcher2.png');
+}
+.mockup {
+    align-items: center;
+    align-content: center;
+    padding: 3rem;
+}
+
+.mockup img {
+    width: 80%;
+    left: -5px;
+    margin-bottom: 50px;
+}
+
+.aboutText {
+    align-content: center;
+
+}
+
+.aboutText p {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+@media only screen and (min-width: 351px) and (max-width: 991px) {
+    
+}
+
+@media only screen and (min-width: 100px) and (max-width: 350px) { 
+
+}

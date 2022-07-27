@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@200&family=Nunito:wght@300&family=Playfair+Display&display=swap");
+.fetcher2 {
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  align-items: center;
+  background-image: url("../../../public/assets/fetcher2.png");
+}
+
+.mockup {
+  align-items: center;
+  align-content: center;
+  padding: 3rem;
+}
+
+.mockup img {
+  width: 80%;
+  left: -5px;
+  margin-bottom: 50px;
+}
+
+.aboutText {
+  align-content: center;
+}
+
+.aboutText p {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}

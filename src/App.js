@@ -1,24 +1,31 @@
-// import "bootstrap/dist/css/bootstrap.css";
-import "./App.css";
-import Header from "./Components/header/header";
-import Home from "./Components/home/home";
-import About from "./Components/about/about";
-import Fetcher1 from "./Components/fetcher1/fetcher1";
-import Fetcher2 from "./Components/fetcher2/fetcher2";
-import Fetcher3 from "./Components/fetcher3/fetcher3";
-import Footer from "./Components/footer/footer";
+
+import './App.css';
+import Contact from './components/footerContact/Contact';
+import Navbar from './components/navbar/Navbar';
+import Screen1 from './components/screen1/Screen1';
+import Screen2 from './components/screen2/Screen2';
+import Screen3 from './components/screen3/Screen3';
+import Screen4 from './components/screen4/Screen4';
+import Screen5 from './components/screen5/Screen5';
+import Footer from './components/screen6/Footer';
 
 function App() {
   return (
     <>
-      <Header />
-      <Home />
-      <About />
-      <Fetcher1 />
-      <Fetcher2 />
-      <Fetcher3 />
-      <Footer />
+     <div className="container-fluid mt-5 pt-5 " >
+    <Navbar/>
+    <Screen1/>
+    <Screen2/>
+    <Screen3/>
+    <Screen4/>
+    <Screen5/>
+
+</div>
+
+<Footer/>
+<Contact/>
     </>
+      
   );
 }
 
